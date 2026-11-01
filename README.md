@@ -9,3 +9,6 @@
 <li>Implement network security groups</li>
 <li>Validate network connectivity and security</li>
 <li>Repeat the process but faster using terraform <b>(Coming Soon)</b></li>
+
+<h1>Architecture Diagram</h1>
+Here is a visual idea of what is being done:
