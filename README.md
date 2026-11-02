@@ -27,5 +27,7 @@ For the virtual network, there will be 4 subnets that will represent different d
 <li>Sales</li>
 
 <h2>Network Security Groups</h2>
+For NSGs, there will be 2 created for the sake of this project. One will be for Azure Bastion and the other will be for the virtual machine.
 
 <h2>Virtual Machine Deployment</h2>
+To deploy a virtual machine, this is where I take all of the components that I made in my resource group and I start implementing it into the virtual machine.
