@@ -12,3 +12,20 @@
 
 <h1>Architecture Diagram</h1>
 Here is a visual idea of what is being done:
+
+
+<h1>Setup & Configuration</h1>
+
+<h2>Resource Group</h2>
+This is straightforward, I will choose the subscription and name the resource group. Making the resource group first will allow me to organize all other components into one group.
+
+<h2>Virtual Network</h2>
+For the virtual network, there will be 4 subnets that will represent different departments such as IT, HR, finance, and sales. Each department will have their own network while still being as a whole and communicate with each other when necessary. For this enterprise, we will use a class B private IP address 172.16.0.0/16. Here are the subnets that will be used for each department:
+<li>HR</li>
+<li>IT</li>
+<li>Finance</li>
+<li>Sales</li>
+
+<h2>Network Security Groups</h2>
+
+<h2>Virtual Machine Deployment</h2>
