@@ -20,11 +20,13 @@ Here is a visual idea of what is being done:
 This is straightforward, I will choose the subscription and name the resource group. Making the resource group first will allow me to organize all other components into one group.
 
 <h2>Virtual Network</h2>
-For the virtual network, there will be 4 subnets that will represent different departments such as IT, HR, finance, and sales. Each department will have their own network while still being as a whole and communicate with each other when necessary. For this enterprise, we will use a class B private IP address 172.16.0.0/16. Here are the subnets that will be used for each department:
-<li>HR</li>
-<li>IT</li>
-<li>Finance</li>
-<li>Sales</li>
+For the virtual network, there will be 4 subnets that will represent different departments such as IT, HR, finance, and sales. Each department will have their own network while still being as a whole and communicate with each other when necessary. For this enterprise, we will use a class B private IP address 172.16.0.0/12. Here are the subnets that will be used for each department:
+<li>HR (172.16.0.0/24)</li>
+<li>IT (172.16.1.0/24)</li>
+<li>Finance (172.16.2.0/24)</li>
+<li>Sales (172.16.3.0/24)</li>
+<li>Azure Bastion (172.16.4.0/22)</li>
+For azure, the cidr is not the same as the other departments because it can be used for all of the departments combined assuming there are 250 employees for each department that needs Bastion to remote access in a secure way.
 
 <h2>Network Security Groups</h2>
 For NSGs, there will be 2 created for the sake of this project. One will be for Azure Bastion and the other will be for the virtual machine.
