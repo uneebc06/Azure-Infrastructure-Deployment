@@ -13,7 +13,7 @@
 <h1>Architecture Diagram</h1>
 Here is a visual idea of what is being done:
 <div align="center">
-    <img src="./Screenshots%26Recordings/1.%20Architecture%20Diagram/Azure%20Deployment%20Diagram.png" alt="Azure Deployment Diagram" width="800">
+    <img src="./Screenshots%26Recordings/1.%20Architecture%20Diagram/Azure%20Deployment%20Diagram.png" alt="Azure Deployment Diagram" width="900">
 </div>
 
 <h1>Setup & Configuration</h1>
@@ -23,8 +23,8 @@ This is straightforward, I will choose the subscription and name for the resourc
 <br>
 <div>
     <ol>
-<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" width="480" valign="middle">
-    <li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%202.png" width="500" valign=middle>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" valign="middle">
+    <li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%202.png" valign=middle>
     </ol>
 </div>
 
@@ -36,6 +36,18 @@ For the virtual network, there will be 4 subnets that will represent different d
 <li>Sales (172.16.3.0/24)</li>
 <li>Azure Bastion (172.16.4.0/22)</li>
 For Azure Bastion, the cidr is not the same as the other departments because it can be used for all of the departments combined assuming there are 250 employees for each department that needs Bastion to remote access in a secure way.
+<br>
+<div>
+    <ol>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/2.%20Virtual%20Network/vnet%20Creation%201.png" valign=middle>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/2.%20Virtual%20Network/vnet%20Creation%202.png" valign=middle>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/2.%20Virtual%20Network/vnet%20Creation%203.png" valign=middle>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/2.%20Virtual%20Network/vnet%20Creation%204.png" valign=middle>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/2.%20Virtual%20Network/vnet%20Creation%205.png" valign=middle>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/2.%20Virtual%20Network/vnet%20Creation%206.png" valign=middle>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/2.%20Virtual%20Network/vnet%20Creation%207.png" valign=middle>
+    </ol>
+</div>
 
 <h2>Network Security Groups</h2>
 For NSGs, there will be 2 created for the sake of this project. One will be for Azure Bastion and the other will be for the virtual machine.
