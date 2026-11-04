@@ -33,3 +33,6 @@ For NSGs, there will be 2 created for the sake of this project. One will be for 
 
 <h2>Virtual Machine Deployment</h2>
 To deploy a virtual machine, this is where I take all of the components that I made in my resource group and I start implementing it into the virtual machine.
+
+<h2>Deployment Test</h2>
+After Setting up all the components that are needed, now it is time to see if the virtual machine can be connected and used.
