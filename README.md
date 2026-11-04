@@ -19,9 +19,10 @@ Here is a visual idea of what is being done:
 <h1>Setup & Configuration</h1>
 
 <h2>Resource Group</h2>
-This is straightforward, I will choose the subscription and name the resource group. Making the resource group first will allow me to organize all other components into one group.
+This is straightforward, I will choose the subscription and name for the resource group as well as choosing the region. Making the resource group first will allow me to organize all other components into one group.
 <div align="center">
-<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" width="500">
+<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" width="485">
+    <img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%202.png" width="505">
 </div>
 
 <h2>Virtual Network</h2>
@@ -31,7 +32,7 @@ For the virtual network, there will be 4 subnets that will represent different d
 <li>Finance (172.16.2.0/24)</li>
 <li>Sales (172.16.3.0/24)</li>
 <li>Azure Bastion (172.16.4.0/22)</li>
-For azure, the cidr is not the same as the other departments because it can be used for all of the departments combined assuming there are 250 employees for each department that needs Bastion to remote access in a secure way.
+For Azure Bastion, the cidr is not the same as the other departments because it can be used for all of the departments combined assuming there are 250 employees for each department that needs Bastion to remote access in a secure way.
 
 <h2>Network Security Groups</h2>
 For NSGs, there will be 2 created for the sake of this project. One will be for Azure Bastion and the other will be for the virtual machine.
