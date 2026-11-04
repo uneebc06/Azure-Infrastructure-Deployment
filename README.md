@@ -22,8 +22,10 @@ Here is a visual idea of what is being done:
 This is straightforward, I will choose the subscription and name for the resource group as well as choosing the region. Making the resource group first will allow me to organize all other components into one group.
 <br>
 <div>
-1.<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" width="480" valign="middle">
-    2.<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%202.png" width="500" valign=middle>
+    <ol>
+<li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" width="480" valign="middle">
+    <li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%202.png" width="500" valign=middle>
+    </ol>
 </div>
 
 <h2>Virtual Network</h2>
