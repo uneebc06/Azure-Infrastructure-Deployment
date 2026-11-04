@@ -50,7 +50,18 @@ For Azure Bastion, the cidr is not the same as the other departments because it 
 </div>
 
 <h2>Network Security Groups</h2>
-For NSGs, there will be 2 created for the sake of this project. One will be for Azure Bastion and the other will be for the virtual machine.
+For NSGs, there will be 2 created for the sake of this project. One will be for Azure Bastion and the other will be for the virtual machines in the IT department.
+<div>
+    <ol>
+    <li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/3.%20Network%20Security%20Groups/nsg%20Creation%201.png" valign=middle>
+        <li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/3.%20Network%20Security%20Groups/nsg%20Creation%202.png" valign=middle>
+            <li><img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/3.%20Network%20Security%20Groups/nsg%20Creation%203.png" valign=middle>
+    </ol>
+</div>
+<br>
+After creating the NSGs, it is vital to configure them with the right rules to allow certain connections or ports to work.
+<br>
+Here are videos of me configuring the inbound and outbound rules for each NSG and applying them in their coordinating spots:
 
 <h2>Virtual Machine Deployment</h2>
 To deploy a virtual machine, this is where I take all of the components that I made in my resource group and I start implementing it into the virtual machine.
