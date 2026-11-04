@@ -20,9 +20,10 @@ Here is a visual idea of what is being done:
 
 <h2>Resource Group</h2>
 This is straightforward, I will choose the subscription and name for the resource group as well as choosing the region. Making the resource group first will allow me to organize all other components into one group.
+<br>
 <div align="center">
-1.<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" width="480">
-    2.<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%202.png" width="500">
+1.<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" width="480" valign="middle">
+    2.<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%202.png" width="500" valign=middle>
 </div>
 
 <h2>Virtual Network</h2>
