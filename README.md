@@ -12,8 +12,8 @@
 
 <h1>Architecture Diagram</h1>
 Here is a visual idea of what is being done:
-<a href="./Screenshots%26Recordings/1.%20Architecture%20Diagram/Azure%20Deployment%20Diagram.png"target="_blank">
-<img src="./Screenshots%26Recordings/1.%20Architecture%20Diagram/Azure%20Deployment%20Diagram.png" width=75%>
+<a href="./Screenshots%26Recordings/1.%20Architecture%20Diagram/Azure%20Deployment%20Diagram.png" target="_blank">
+  <img src="./Screenshots%26Recordings/1.%20Architecture%20Diagram/Azure%20Deployment%20Diagram.png" width=75%>
 </a>
 
 <h1>Setup & Configuration</h1>
