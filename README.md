@@ -20,6 +20,9 @@ Here is a visual idea of what is being done:
 
 <h2>Resource Group</h2>
 This is straightforward, I will choose the subscription and name the resource group. Making the resource group first will allow me to organize all other components into one group.
+<div align="center">
+<img src="Screenshots%26Recordings/2.%20Setup%20%26%20Configuration/1.%20Resource%20Group/Resource%20Group%20Creation%201.png" width="500">
+</div>
 
 <h2>Virtual Network</h2>
 For the virtual network, there will be 4 subnets that will represent different departments such as IT, HR, finance, and sales. Each department will have their own network while still being as a whole and communicate with each other when necessary. For this enterprise, we will use a class B private IP address 172.16.0.0/12. Here are the subnets that will be used for each department:
