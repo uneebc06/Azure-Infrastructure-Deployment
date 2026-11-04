@@ -12,7 +12,7 @@
 
 <h1>Architecture Diagram</h1>
 Here is a visual idea of what is being done:
-
+<img src="./Screenshots%26Recordings/1.%20Architecture%20Diagram/Azure%20Deployment%20Diagram.png" width=75%>
 
 <h1>Setup & Configuration</h1>
 
