@@ -75,3 +75,8 @@ To deploy a virtual machine, this is where I take all of the components that I m
 <h2>Deployment Test</h2>
 After Setting up all the components that are needed, now it is time to see if the virtual machine can be connected and used.
 <video src=https://github.com/user-attachments/assets/2c7077a6-6280-40bf-b144-1b401dd2ca36></video>
+The virtual machine boots up and is ready to be used.
+<br><br>
+<h1 align=middle>Infrastructure Deployment Using Script</h1>
+Using scripts allow the infrastructure to be built within seconds, saving a lot of time.
+<b><p align=middle>Coming Soon</p></b>
