@@ -62,6 +62,12 @@ For NSGs, there will be 2 created for the sake of this project. One will be for 
 After creating the NSGs, it is vital to configure them with the right rules to allow certain connections or ports to work.
 <br>
 Here are videos of me configuring the inbound and outbound rules for each NSG and applying them in their coordinating spots:
+<ol>
+<li><video src=https://github.com/user-attachments/assets/e2dd85da-7b2e-4e78-b28a-8bdfe8a948ae></video>
+<li><video src=https://github.com/user-attachments/assets/206b9b4a-2476-43a7-85a9-ddb5d8e012b0></video>
+<li><video src=https://github.com/user-attachments/assets/b030f1ac-b560-46a0-a4d8-b4f650e825a0></video>
+<li><video src=https://github.com/user-attachments/assets/8f3d503b-efcd-4c7b-9777-958114a0bd22></video>
+</ol>
 
 <h2>Virtual Machine Deployment</h2>
 To deploy a virtual machine, this is where I take all of the components that I made in my resource group and I start implementing it into the virtual machine.
