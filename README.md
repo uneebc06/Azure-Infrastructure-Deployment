@@ -71,6 +71,7 @@ Here are videos of me configuring the inbound and outbound rules for each NSG an
 
 <h2>Virtual Machine Deployment</h2>
 To deploy a virtual machine, this is where I take all of the components that I made in my resource group and I start implementing it into the virtual machine.
-
+<video src=https://github.com/user-attachments/assets/12c36ea3-33a8-4dc8-98f6-febd5f83ffe8></video>
 <h2>Deployment Test</h2>
 After Setting up all the components that are needed, now it is time to see if the virtual machine can be connected and used.
+<video src=https://github.com/user-attachments/assets/2c7077a6-6280-40bf-b144-1b401dd2ca36></video>
